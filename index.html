@@ -9,24 +9,43 @@
     <body>
         <header>
             <div>
-            <center>
-            <img src="image/Логотип4.png", lenght="100", width="150">
-            <img src="image/Логотип.png", lenght="100", width="150">
-            <img src="image/Логотип1.webp", lenght="100", width="150">
-            <img src="image/Логотип2.png", lenght="100", width="150">
-            <img src="image/Логотип3.webp", lenght="100", width="150">
-        </center></br>
-        </div>
+                <center>
+                    <img src="image/Логотип4.png", lenght="100", width="150">
+                    <img src="image/Логотип.png", lenght="100", width="150">
+                    <img src="image/Логотип1.webp", lenght="100", width="150">
+                    <img src="image/Логотип2.png", lenght="100", width="150">
+                    <img src="image/Логотип3.webp", lenght="100", width="150">
+                </center>
+            </div>
+            <div>
+                <p>
+                    <table width="100%", cellpadding = "5">
+                        <tr>
+                            <th>
+                                <img src="image/White.jpg", lenght="70", width="200">
+                            </th>
+                            <th>
+                                <input type="text">
+                                <button type="search">Пошук</button>
+                            </th>
+                            <th>
+                                <button type="button"><a href="Увійти.html">Увійти</a></button>
+                                <button type="button"><a href=реєстрація.html>Зареєструватися</a></button>
+                            </th>
+                        </tr>
+                    </table>
+                    
+                </p>
+            </div>
         <fieldset>
             <legend><h2> Зміст </h2></legend>
             <nav>
             <ul>
-              <li><a href="">Сюжет</a></li>
-              <li><a href="">У ролях</a></li>
-              <li><a href="">Трейлер</a></li>
-              <li><a href="">Фільм</a></li>
-              <li><a href="">Виробництво</a></li>
-              <li><a href="">Відгуки</a></li>
+              <li><a href="#www">У ролях</a></li>  
+              <li><a href="#ttt">Сюжет</a></li>
+              <li><a href="#fff">Відео-файли</a></li>
+              <li><a href="#vvv">Виробництво</a></li>
+              <li><a href="#mmm">Відгуки</a></li>
             </ul>              
         </nav>
         </fieldset> </br>    
@@ -40,7 +59,7 @@
         </center>
         <img src="image/lucy.jpg", lenght="200", width="466">
         <div>
-            <table border="2", lenght="200", width="466">
+            <table border="2", lenght="200", width="466", cellpadding = "5">
             <tr>
                 <th>
                     Жанр
@@ -189,7 +208,7 @@
         </div>  
         <div>
             <h2>Зовнішні відеофайли</h2>
-        <table border="2", lenght="200", width="466">
+        <table border="2", lenght="200", width="466", cellpadding = "5">
             <tr>
                 <th>
                     Трейлер
@@ -210,7 +229,7 @@
         </table>
         </div>
         <div>
-            <h2>У ролях</h2>
+            <h2 id="www">У ролях</h2>
             <ol>
                 <li>
                     <a href="https://ua.kinorium.com/name/319050/">Скарлетт Йоганссон</a> — Люсі
@@ -233,7 +252,7 @@
             </ol>
         </div>
         <div>
-            <h2>Сюжет</h2>
+            <h2 id="ttt">Сюжет</h2>
             <p>
                 Ще вчора Люсі була звичайнісінькою 25-річною дівчиною, яка приїхала на Тайвань вчитися. Але одного разу її новий приятель Річард пропонує їй заробити доставкою кейса з невідомим вмістом. Так дівчина опиняється у владі корейської мафії, якою керує містер Чан. </br>
             </p>
@@ -265,7 +284,7 @@
         
         <div>
             <center>
-            <h1>Трейлер</h1>
+            <h1 id="fff">Трейлер</h1>
             <iframe width="560" height="315" src="https://www.youtube.com/embed/MVt32qoyhi0" title="YouTube video player" 
             frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
             allowfullscreen></iframe></br>
@@ -277,7 +296,7 @@
         </center>
         </div>
         <div>
-            <h2>Виробництво</h2>
+            <h2 id="vvv">Виробництво</h2>
             <p>
                 Зйомки фільму почалися у вересні 2013 року в Парижі , в основному на кіностудії Cité du Cinéma. 
                 За словами CEO EuropaCorp бюджет фільму став найбільшим в історії компанії. 
@@ -286,48 +305,11 @@
             </p>
         </div>
         <div>
-            <h2>Відгуки</h2>
+            <h2 id="mmm">Відгуки</h2>
             <p>
                 Фільм отримав змішані відгуки. Критики зазначили, що фільм дещо безглуздий, але захопливий. 
                 На сайті Rotten Tomatoes фільм має рейтинг 66% на основі 192 рецензій.
             </p>
-        </div>
-        <div>
-            <h2>Реєстрація користувача</h2>
-            <form method="get" action="#">
-                <p>
-                    <label>
-                        Логін
-                        <input type="text" name="text">
-                    </label>
-                </p>
-                <p>
-                    <label for="password">Пароль</label>
-                    <input id="password" type="password" name="password">
-                </p>
-                <p>
-                    <label>
-                        Email
-                        <input type="email" placeholder="ex@mail.com" name="email">
-                    </label>
-                </p>
-                
-                <label>Чоловік<input type="radio" name="gender" value="m"></label>
-                <label>Жінка<input type="radio" name="gender" checked="checked" value="f"></label></br>
-                <p>
-                    Створюючи свій обліковий запис, ви погоджуєтесь з 
-                    <a href="#">умовами конфіденційності</a>?</br>
-                    <label for="agree" name="agree" value="agree">Я погоджуюсь</label><input id="agree" checked="checked" type="checkbox">
-                </p>
-                
-                <input type="submit" value="Відправити">
-                <button type="reset">Скинути</button></br>
-                <p>
-                    <a href="#">Забули пароль?</a></br>
-                    Уже існує обліковий запис?
-                    <a href="#">Увійти</a>
-                </p> 
-            </form>
         </div>
         <div>
             <center>
