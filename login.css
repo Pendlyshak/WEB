@@ -1,7 +1,41 @@
 body {
     background-color: #E6E6FA;
+    text-align: center;
 }
 
-.login {
-    
+.reset1 {
+    background: #428BCA;
+    color: #fff;
+    font-family: Sans-serif;
+    font-size: 14px;
+    height: 22px;
+    width: 65px;
+    margin: 3px 3px;
+    text-align: center;
+    border: 0;
+    transition: all 0.3s ease 0s;
+    opacity: 1;
+}
+
+.reset1 {
+    opacity: 0.75;
+}
+
+.submit1 {
+    background: #fff;
+    border-color: rgb(6, 95, 212);
+    border-style: solid;
+    font-family: Sans-serif;
+    border-radius: 2px;
+    cursor: pointer;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 16px;
+    padding-right: 16px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 0.3s ease 0s;
+}
+.submit1:hover {
+    background: #CF4647;
 }
