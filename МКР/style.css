@@ -1,34 +1,13 @@
-apple.jpg {
-    height: 20px;
-    width: 20px;
+body {
+    background-color: #E6E6FA	;
+    color:rgb(3, 2, 2);
 }
 
-table {
-    border-collapse: collapse;
-}
-
-td,
-th {
-    border: 1px solid black;
-}
-
-form {
-    display: flex;
-    flex-direction: column;
-    padding: 10px;
-    max-width: 700px;
+h1 {
     text-align: center;
 }
 
-form input {
-    margin-bottom: 10px;
-}
 
-#edit-user,
-#add-user {
-    display: none;
-}
-#serchByName{
-    width: 50%;
-    margin: 10px;
+.img {
+    text-align: center;
 }
